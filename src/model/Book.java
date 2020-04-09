@@ -15,6 +15,10 @@ public class Book {
 
     public Book() {
     }
+    public Book(String title,String outerName){
+        this.title=title;
+        this.outerName=outerName;
+    }
 
     public String getTitle() {
         return title;
